@@ -1,0 +1,306 @@
+:root{
+    --cor-principal: #FF9300;
+    --cor-principal-hover: #ca7703fd;
+    --branco: #FFFFFF;
+    --cor-01: #ececec;
+    --fonte: #484848;
+    --preto: #000000;
+}
+a{
+    text-decoration: none;
+    color: var(--fonte);
+}
+ul{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--preto);
+}
+img{
+    border:0;
+    display: block;
+}
+.alert-susses{
+    background-color: var(--bs-sucess);
+    color: var(--bs-green);
+}
+/*BOTAO SITE*/
+.btn-padrao-site{
+    background-color: var(--cor-principal) !important;
+    border: 2px solid var(--cor-principal) !important;
+    color: var(--branco);
+}
+.btn-padrao-site:hover{
+    background-color: var(--cor-principal-hover) !important;
+    border:2px solid var(--cor-principal-hover) !important;
+}
+/*BOTAO SITE*/
+
+/*FOOTER*/
+.footer{
+    background-color: var(--cor-01);
+    padding: 25px 0;
+    /* margin-top: 25px; */
+}
+.footer img{
+    margin: 0 auto;
+}
+.footer .nav-redes-footer{
+    margin-top: 15px;
+}
+.footer .nav-redes-footer a i{
+    font-size: 28px;
+    margin:0 15px;
+    color: var(--fonte);
+}
+.footer .nav-redes-footer a i:hover{
+    color: var(--cor-principal);
+}
+.sub-footer{
+    padding: 10px 0;
+}
+.sub-footer p{
+    color: var(--fonte)
+}
+/** HOME **/
+.contador{
+    background-color: var(--cor-principal);
+    padding: 15px;
+}
+.contador p, span{
+    color:var(--bs-white);
+}
+.conteudo-marketing{
+    background-color: #3E3E3E;
+    padding: 45px 0;
+}
+.conteudo-marketing h2, p{
+    color:var(--bs-white);
+}
+.fornecedores{
+    padding: 45px 0;
+}
+.fornecedores .fornecedor-xbz{
+    max-width: 306px;
+    margin: 25px auto;
+}
+div.newsletter{
+    background-color: var(--cor-01);
+    padding: 15px 0;
+    color: var(--bs-white);
+}
+div.conteudo-equipe p{
+    color: var(--preto);
+}
+.conteudo-newsletter p{
+    color: var(--preto);
+}
+
+/*DETALHE PORTIFOLIO*/
+.detalhe-portifolio{
+    padding-top: 45px;
+}
+.detalhe-portifolio h1{
+    font-size: 22px;
+    color: #414141;
+    font-style: italic;
+    font-weight: 600;
+}
+.detalhe-portifolio h2{
+    font-size: 16px;
+    color: #333;
+}
+.detalhe-portifolio p{
+    font-size: 14px;
+    color: #333;
+}
+.detalhe-portifolio img{
+    margin: 15px auto;
+}
+
+/* EQUIPE*/
+.conteudo-equipe{
+    padding: 25px 0;
+}
+.conteudo-equipe h1{
+    font-size: 32px;
+    color: #484848;
+    font-weight: 900;
+}
+.conteudo-equipe h2{
+    font-size: 20px;
+    color: #484848;
+    font-weight: 500;
+    font-style: italic;
+}
+.caixa-equipe .conteudo-caixa{
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px 0;
+}
+.caixa-equipe .conteudo-caixa img{
+    border-radius: 10px; 
+}
+.caixa-equipe .caixa-texto{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    transition: all ease-in-out 1s;
+}
+.caixa-equipe:hover .caixa-texto{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.caixa-texto ul{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.caixa-texto ul li{
+    display: inline-block;
+    list-style: none;
+    margin: auto 5px;
+}
+.caixa-texto li a{
+    color: var(--branco);
+}
+.caixa-equipe:hover .caixa-texto .title, .caixa-equipe:hover .caixa-texto .text{
+    color: var(--branco);
+}
+.caixa-texto .title{
+    color: transparent;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30%;
+}
+.caixa-texto .text{
+    color: transparent;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.caixa-equipe:hover .caixa-texto .fa-brands{
+    color: var(--branco);
+}
+.caixa-texto .fa-brands{
+    color: transparent;
+    font-size: 32px;
+}
+
+/*PORTIFOLIO*/
+.titulo-portifolio{
+    padding: 15px 0 25px 0;
+}
+.titulo-portifolio h1{
+    font-size: 32px;
+    color: #484848;
+    font-weight: 900;
+}
+.titulo-portifolio h2{
+    font-size: 20px;
+    color: #484848;
+    font-weight: 500;
+    font-style: italic;
+}
+.nav-categorias{
+    padding: 15px 0;
+}
+.nav-categorias a{
+    margin: 0 8px;
+    text-decoration: none;
+    color: #484848;
+    font-size: 16px;
+    font-weight: 800;
+}
+.nav-categorias a:hover{
+    color: var(--cor-principal);
+}
+.caixa-portifolio{
+    position: relative;
+    border: 2px solid #f1f1f1;
+}
+.caixa-portifolio .conteudo-portifolio{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    transition: all ease-in-out 1s;
+}
+.caixa-portifolio:hover .conteudo-portifolio{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.conteudo-portifolio h5{
+    font-size: 28px;
+    color: var(--branco);
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 20%;
+}
+/*CONTATO*/
+.container-contato{
+    margin: 42px 0;
+}
+.conteudo-contato h1, .conteudo-contato h2{
+    font-size: 28px;
+    color: var(--fonte);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.conteudo-contato table{
+    width: 100%;
+}
+.conteudo-contato table tr{
+    padding: 8px 0;
+}
+.conteudo-contato p{
+    font-size: 16px;
+    color: var(--fonte);
+}
+.conteudo-contato i{
+    font-size: 20px;
+    color: var(--cor-principal);
+}
+.conteudo-contato a{
+    text-decoration: none;
+    color: var(--fonte);
+}
+.conteudo-contato a:hover{
+    color: var(--cor-principal)
+}
+.form-contato table {
+    width: 100%;
+}
+.form-contato table td{
+    padding: 5px 10px;
+}
+.form-contato input{
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+}
+.form-contato .textarea{
+    width: 100%;
+    padding-left: 10px;
+    resize: none;
+}
+.form-contato .btn-padrao-site{
+    width: 150px;
+    margin: 0 auto;
+}
+/*CONTATO*/

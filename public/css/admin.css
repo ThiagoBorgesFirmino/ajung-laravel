@@ -1,0 +1,53 @@
+:root{
+    --cor-principal: #FF9300;
+    --cor-principal-hover: #ca7703fd;
+    --branco: #FFFFFF;
+    --cor-01: #ececec;
+    --fonte: #484848;
+    --preto: #000000;
+}
+
+.table-equipe img{
+    width: 80px;
+    display: block;
+}
+
+.alert-susses{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: green;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.container-portifolio-list{
+    margin-top: 30px;
+}
+
+.img-preview{
+    width: 450px;
+    margin: 10px auto;
+}
+.container-login{
+    margin-top: 45px;
+}
+.container-login .logo-login{
+    margin:0 auto;
+    display:block; 
+    width:25%
+}
+.margin-top{
+    margin-top: 45px;
+}
+/*BOTAO SITE*/
+.btn-padrao-site{
+    background-color: var(--cor-principal) !important;
+    border: 2px solid var(--cor-principal) !important;
+    color: var(--branco);
+}
+.btn-padrao-site:hover{
+    background-color: var(--cor-principal-hover) !important;
+    border:2px solid var(--cor-principal-hover) !important;
+}
+/*BOTAO SITE*/
